@@ -1,32 +1,29 @@
+# ☁️ Cloud Computing AWS Project
 
-
-````markdown
-# Cloud Computing AWS Project
-
-Cloud computing project demonstrating the use of Amazon Web Services (AWS)
-for cloud database management and conversational application development.
+A hands-on cloud computing project demonstrating the deployment of a cloud
+database using Amazon RDS and the development of a conversational chatbot
+using Amazon Lex.
 
 ## 📌 Project Overview
 
-This project explores fundamental cloud computing concepts through hands-on
-implementation with AWS services.
+This project was developed to practice cloud computing concepts and
+AWS service integration through two main components:
 
-The project focuses on two main components:
+- Cloud database deployment and management with Amazon RDS
+- Conversational chatbot configuration with Amazon Lex
 
-- Deploying and managing a relational database using Amazon RDS
-- Developing and configuring a conversational chatbot using Amazon Lex
+The project also demonstrates database connectivity using MySQL Workbench,
+SQL query execution, stored procedures, and chatbot configuration.
 
-The project also includes database interaction through MySQL Workbench and
-supporting project documentation.
+## ☁️ Technologies & AWS Services
 
-## ☁️ AWS Services & Technologies
-
-- Amazon RDS
-- Amazon Lex
-- MySQL Workbench
-- MySQL
-- SQL
-- Cloud Computing
+| Technology / Service | Purpose |
+|---|---|
+| **Amazon RDS** | Cloud-based relational database deployment |
+| **MySQL** | Relational database management |
+| **MySQL Workbench** | Database connection and SQL management |
+| **Amazon Lex** | Conversational chatbot development |
+| **SQL** | Database queries and stored procedures |
 
 ## 🗂️ Project Structure
 
@@ -46,126 +43,125 @@ Cloud-Computing-AWS-Project/
 │   ├── Slot.jpg
 │   └── Build thành công.jpg
 │
-├── Architecture/
-│
 ├── Documentation/
-│   └── Project Documentation
+│   └── Điện Toán Đám Mây.pdf
 │
 └── README.md
-````
+```
 
-## 🗄️ Amazon RDS
+## 🗄️ 1. Amazon RDS
 
 The project includes the deployment and management of a relational database
 using Amazon RDS.
 
 ### Activities
 
-* Configure an Amazon RDS database environment
-* Establish database connectivity
-* Connect to the database using MySQL Workbench
-* Execute SQL queries
-* Implement and work with stored procedures
-* Manage relational database data in a cloud environment
+- Configured an Amazon RDS database environment
+- Established database connectivity
+- Connected to the database using MySQL Workbench
+- Executed SQL queries
+- Implemented stored procedures
+- Managed relational database data in a cloud environment
 
-### Database Tools
+### Database Workflow
 
-* Amazon RDS
-* MySQL
-* MySQL Workbench
-* SQL
+```text
+Amazon RDS
+    │
+    ▼
+Cloud Database
+    │
+    ▼
+MySQL Workbench
+    │
+    ├── SQL Queries
+    │
+    └── Stored Procedures
+```
 
-## 🤖 Amazon Lex
+### RDS Implementation
 
-The project also demonstrates the development and configuration of a
+The `AWS-RDS` folder contains screenshots demonstrating the implementation:
+
+- RDS configuration
+- Database connection
+- MySQL Workbench
+- SQL query execution
+- Stored procedure implementation
+
+## 🤖 2. Amazon Lex
+
+The project also includes the development and configuration of a
 conversational chatbot using Amazon Lex.
 
 ### Activities
 
-* Configure chatbot intents
-* Define and configure slots
-* Set up conversation flow
-* Build the chatbot
-* Test chatbot functionality
+- Configured chatbot intents
+- Defined slots and input parameters
+- Configured the conversation flow
+- Built the chatbot
+- Tested the chatbot configuration
 
 ### Amazon Lex Components
 
-* Intent
-* Slot
-* Conversation flow
-* Bot build and testing
+```text
+Amazon Lex
+    │
+    ├── Intent
+    │
+    ├── Slot
+    │
+    └── Bot Build & Testing
+```
 
-## 📐 Architecture
+The `Amazon-Lex` folder contains screenshots demonstrating:
 
-The project includes an architecture section illustrating the relationship
-between the cloud services and components used in the project.
-
-Architecture materials are available in the `Architecture` folder.
-
-## 📸 Screenshots
-
-Screenshots demonstrating the implementation process are organized into
-separate folders:
-
-### Amazon RDS
-
-The `AWS-RDS` folder contains screenshots related to:
-
-* RDS configuration
-* Database connection
-* MySQL Workbench
-* SQL queries
-* Stored procedures
-
-### Amazon Lex
-
-The `Amazon-Lex` folder contains screenshots related to:
-
-* Intent configuration
-* Slot configuration
-* Successful bot build
+- Intent configuration
+- Slot configuration
+- Successful bot build
 
 ## 📚 Documentation
 
 Detailed project documentation is available in the `Documentation` folder.
 
-The documentation provides additional information about the cloud computing
-implementation and the services used in the project.
+The documentation contains additional information about the project,
+implementation steps, AWS services, database configuration, and chatbot
+development.
 
 ## 🎯 Skills Demonstrated
 
-* Cloud Computing
-* Amazon Web Services (AWS)
-* Amazon RDS
-* Amazon Lex
-* MySQL
-* SQL
-* MySQL Workbench
-* Relational Database Management
-* Cloud Database Deployment
-* Database Connectivity
-* Database Management
-* Technical Documentation
+- Cloud Computing
+- Amazon Web Services (AWS)
+- Amazon RDS
+- Amazon Lex
+- MySQL
+- SQL
+- MySQL Workbench
+- Relational Database Management
+- Cloud Database Deployment
+- Database Connectivity
+- SQL Query Development
+- Stored Procedures
+- Technical Documentation
 
 ## 💡 Project Highlights
 
-This project demonstrates practical experience with cloud-based database
-deployment and conversational application development.
+This project demonstrates practical experience in:
 
-Key areas include:
+- Deploying and managing a relational database on AWS
+- Connecting to a cloud database using MySQL Workbench
+- Writing and executing SQL queries
+- Implementing stored procedures
+- Configuring Amazon Lex intents and slots
+- Building and testing a conversational chatbot
+- Organizing technical documentation and implementation evidence
 
-* Working with AWS cloud services
-* Deploying and accessing a cloud database
-* Connecting cloud databases with database management tools
-* Writing and executing SQL queries
-* Working with stored procedures
-* Configuring chatbot intents and slots
-* Building and testing an Amazon Lex chatbot
-* Organizing technical documentation and implementation evidence
-
-## 📌 Repository Purpose
+## 📌 Portfolio Purpose
 
 This repository serves as a portfolio project demonstrating hands-on
 experience with AWS cloud services, database management, SQL, and
 conversational application development.
 
+---
+
+**Technologies:** AWS RDS · Amazon Lex · MySQL · SQL · MySQL Workbench
